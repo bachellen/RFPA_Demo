@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+import { DocumentFormComponent } from './document-form/document-form.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', redirectTo: 'document-form', pathMatch: 'full' },
+  { path: 'document-form', component: DocumentFormComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

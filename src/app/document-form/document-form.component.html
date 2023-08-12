@@ -1,0 +1,9 @@
+<div>
+    <textarea [(ngModel)]="sections" placeholder="Enter sections of the document"></textarea>
+    <button (click)="generateDocument()">Generate Document</button>
+  </div>
+  <div *ngIf="generatedDocument">
+    <h2>Generated Document:</h2>
+    <pre>{{ generatedDocument }}</pre>
+  </div>
+  
