@@ -10,9 +10,8 @@ AI project that creates Request for Proposals (RFPs) and sends them to vendors. 
 ## Technology :
 - OpenAI
 - ChatGPT
-## Presntioant :[RFPA .pdf](https://github.com/bachellen/RFPA_Demo/files/12327679/RFPA.pdf)
+## Presentation :[RFPA .pdf](https://github.com/bachellen/RFPA_Demo/files/12327679/RFPA.pdf)
 ## Video : 
-
 https://github.com/bachellen/RFPA_Demo/assets/37004139/a446cbf6-ad5f-47f8-bb23-f3ad983f0fea
 
 
